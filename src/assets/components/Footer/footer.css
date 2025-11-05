@@ -1,0 +1,29 @@
+footer{
+     background-color: rgb(100, 96, 96);
+     color: white;
+     height: 100vh;
+     padding: 15px;
+}
+h4{
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 300;
+     letter-spacing: 2px;
+}
+.container-icons{
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     padding: 15px;
+}
+i img{
+     width: 50px;
+
+     gap: 30px;
+}
+i{
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}

@@ -1,0 +1,39 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.nav-container{
+     background-color: black;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     padding: 15px;
+     justify-content: space-around;
+     color: white;
+
+}
+.nav-title{
+     font-family: "LimeLight";
+     display: flex;
+     justify-content: flex-start;
+}
+.nav-list{
+     display: flex;
+     justify-content: space-between;
+     
+}
+.nav-list ul{
+     display: flex;
+     gap: 50px;
+     list-style: none;
+}
+.nav-list li{
+     transition: all 0.3s ease;
+     padding: 10px;
+}
+.nav-list li:hover{
+     background-color: purple;
+     border-radius: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
